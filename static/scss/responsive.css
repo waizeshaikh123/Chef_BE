@@ -1,0 +1,17 @@
+@media (max-width:450px) {
+    .main{
+        .page3{
+            .card{
+                width:100%;
+                .res{
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
+                    gap: 30px;
+                    line-height: 13px;
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+}

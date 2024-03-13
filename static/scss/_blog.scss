@@ -1,0 +1,25 @@
+.blog{
+    .main-img{
+        // width:100%;
+        height: 75vh;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    a img{
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .main-text{
+        p{
+            color: var(--bs-light-gray);
+            font-size: 0.9em;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}

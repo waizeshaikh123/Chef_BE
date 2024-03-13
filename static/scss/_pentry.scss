@@ -1,0 +1,65 @@
+.tost-ted{
+    position: relative;
+    .main-span{
+        color: var(--bs-gray);
+        border: 1px solid var(--bs-green);
+        border-radius: 9px;
+        .cross-span{
+            cursor: pointer;
+
+        }
+    }
+    .add-ingre{
+        display: none;
+    }
+}
+.main-ingre-2{
+    .add-ingre-2{
+        display: none;
+    }
+}
+
+// scroller
+.scroller-bar{
+    .main-scroll{
+        .scroller{
+        position: relative;
+            width: 50px;
+            height: 25px;
+            background: var(--bs-light-gray);
+            cursor: pointer;
+        }
+        .child-scroller{
+            width: 20px;
+            height: 20px;
+            background: #fff;
+        }
+    }
+}
+
+.gourmet{
+    border: 1px solid #342b2b;
+    border-radius: 5px;
+    cursor: pointer;
+    h5{
+    font-weight: 600;
+        font-size: 1.1rem;
+    }
+    p{
+        color: var(--bs-gray);
+        font-size: 0.9rem;
+    }
+}
+.all-in-one{
+    border: 1px solid #342b2b;
+    border-radius: 5px;
+    cursor: pointer;
+    h5{
+    font-weight: 600;
+        font-size: 1.1rem;
+    }
+    p{
+        color: var(--bs-gray);
+        font-size: 0.9rem;
+    }
+}

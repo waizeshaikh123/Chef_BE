@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="static/images/logo_img/logo.webp" class=" img-fluid">
+    <link rel="stylesheet" href="static/scss/responsive.css">
+    <link rel="stylesheet" href="static/scss/style.css">
+    <title>ChefGPT - Your AI-Powered Personal Chef</title>
+</head>
+
+<body>
+    <!-- navbar section -->
+    <header>
+        <nav class="py-3 px-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class=" d-flex justify-content-start align-items-center gap-5">
+                            <a href="/" class="logo text-decoration-none d-flex align-items-center gap-2">
+                                <img src="static/images/logo_img/logo.png" alt="" width="40px">
+                                <h6 class="fw-bold fs-4 pt-3">Chef<span>GPT</span></h6>
+                            </a>
+
+                            <div class=" d-flex justify-content-center align-items-center main-drop">
+                                <div class=" drop">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                        aria-expanded="false" data-bs-offset="10,20">
+                                        Features
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="pentry.html">🥫 PentryChef</a></li>
+                                        <li><a class="dropdown-item" href="master.html">👨‍🍳 MasterChef</a></li>
+                                        <li><a class="dropdown-item" href="macros.html">💪 MacrosChef</a></li>
+                                        <li><a class="dropdown-item" href="meal.html">📆 MealPlanChef</a></li>
+                                        <li><a class="dropdown-item" href="pair.html">🍷 PairPerfect</a></li>
+                                        <li><a class="dropdown-item" href="mixo.html">🍸 MixologyMaestro</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav-tools">
+                                    <div class=" list-unstyled d-flex flex-wrap ms-4 gap-4 py-0">
+                                        <li><a href="/pricing">Pricing</a></li>
+                                        <li><a href="/blog">Blog</a></li>
+                                        <li><a href="/faq">FAQ</a></li>
+                                        <li><a href="/bac">Become a Creator</a></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class=" d-flex justify-content-end align-items-end gap-4">
+                            <div class="right-nav d-flex gap-3">
+                                <a href="/"
+                                    class=" rounded-circle d-flex justify-content-center align-items-center text-white"
+                                    style="width:40px; height:40px">EN</a>
+                                <a href="/"
+                                    class=" rounded-circle d-flex justify-content-center align-items-center text-white"
+                                    style="width:40px; height:40px"><i class="fa-regular fa-moon"></i></a>
+                            </div>
+                            <div class="sign d-flex align-items-center">
+                                <a href="/sign_in" class="me-3 rounded btn text-white">Sign in</a>
+                                <a href="/sign_up" class=" btn  py-2 px-3 fw-bold text-white">Sign Up<i
+                                        class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero secion strat -->
+    <div class="main">
+
+        <!-- page1 -->
+        <div class="page1 py-5 px-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div>
+                            <h6 class="green-color">Meet ChefGPT 👋</h6>
+                            <h1 class="page1-h1 text-white pt-3">Never worry <br> About <br> <span
+                                    class="green-color">What`s
+                                    for <br> Dinner
+                                    Again!</span></h1>
+                            <p class="pt-3">Say goodbye to boring meals, with AI-powered recipe recommendations, meal
+                                plans creation
+                                and more... 100,000+ dinners saved so far.</p>
+                            <div>
+                                <a
+                                    href="https://apps.apple.com/us/app/chefgpt/id6449961549?itsct=apps_box_badge&itscg=30200">
+                                    <img src="static/images/front_img/en-us.svg" alt="" style="width:190px">
+                                </a>
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.miudigital.chefgpt&utm_source=chefGPTwebsite&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                                    <img src="static/images/front_img/en_badge_web_generic.png" alt=""
+                                        style="width:220px" class=" ms-4">
+                                </a>
+                            </div>
+                            <div class=" d-flex flex-column justify-content-start align-items-start pt-3">
+                                <a href="/" class="green-bg btn text-white py-3 px-4 fw-medium fs-5">Get Started for
+                                    free
+                                    <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                <p class="ps-5 pt-2 text-p">No credit-card required</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div>
+                            <img src="static/images/front_img/Hero_App_Image.webp" alt="" class=" img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto" style="width: 100%; height:2px; background:#222222"></div>
+
+        <!--  page2 -->
+        <div class="page2">
+            <div class=" pt-5 px-5">
+                <div class=" mx-auto text-center d-flex flex-column gap-2 justify-content-center align-items-center">
+                    <img src="static/images/front_img/fire.webp" alt="" width="40px">
+                    <span class="green-color fw-bold">FEATURES</span>
+                    <h2 class="fw-bold text-white">More Than just Recipces</h2>
+                    <h5 class=" text-secondary fw-lighter">Simply Put, ChefGPT it`s Your new Personal Chef.</h5>
+                </div>
+
+                <div class="container-fluid mt-5">
+                    <div class="row pt-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-wrap">
+                            <div class="col-lg-6">
+                                <div class="pt-5 d-flex flex-column gap-2 justify-content-start align-items-start">
+                                    <div class=" mb-2 py-2 px-2 borders-bg">
+                                        <img src="static/images/front_img/tin.webp" alt="" width="40px">
+                                    </div>
+                                    <h3 class=" text-white">PantryChef</h3>
+                                    <p class=" text-secondary">Discover the power of cooking with what you already have
+                                        with
+                                        PantryChef. <br> Simply
+                                        input the ingredients in your pantry and let our app generate a delicious recipe
+                                        for
+                                        you.
+                                    </p>
+                                    <p class=" text-secondary">Say goodbye to wasted food and money. Start cooking
+                                        smarter
+                                        with PantryChef today!
+                                    </p>
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-medium fs-6">Discover
+                                        PentryChef
+                                        <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="static/images/front_img/Feature PantryChef.webp" alt="" class=" img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-wrap">
+                            <div class="col-lg-6">
+                                <img src="static/images/front_img/Feature MasterChef.webp" alt="" class=" img-fluid">
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <div class="pt-5 d-flex flex-column gap-2 justify-content-start align-items-start">
+                                    <div class=" mb-2 py-2 px-2 borders-bg">
+                                        <img src="static/images/front_img/cook_default.webp" alt="" width="40px">
+                                    </div>
+                                    <h3 class=" text-white">MasterChef</h3>
+                                    <p class=" text-secondary">Masterchef is the ultimate cooking companion for anyone
+                                        looking to elevate their culinary skills.
+                                    </p>
+                                    <p class=" text-secondary">Say goodbye to endless Googling for the perfect recipe.
+                                        Masterchef’s helps you find the specific recipe you’re looking for, modify it
+                                        based on your dietary requirements, or generate a new recipe based on your
+                                        cravings. With Masterchef, you'll have access to personalized, healthy, and
+                                        delicious recipes that fit your lifestyle.
+                                    </p>
+                                    <p class=" text-secondary">Cook smarter, not harder with Masterchef.</p>
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-medium fs-6">Discover
+                                        MasterChef
+                                        <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-wrap">
+                            <div class="col-lg-6">
+                                <div class="pt-5 d-flex flex-column gap-2 justify-content-start align-items-start">
+                                    <div class=" mb-2 py-2 px-2 borders-bg">
+                                        <img src="static/images/front_img/flexed_biceps_default.webp" alt=""
+                                            width="40px">
+                                    </div>
+                                    <h3 class=" text-white">MacrosChef
+                                    </h3>
+                                    <p class=" text-secondary">MacrosChef is the perfect tool for anyone looking to hit
+                                        their macronutrient goals while satisfying their taste buds.
+                                    </p>
+                                    <p class=" text-secondary">Generate customized recipes based on your specific
+                                        macronutrient goals and dietary restrictions.
+
+                                    </p>
+                                    <p class=" text-secondary">Say goodbye to the guesswork of meal preparation and
+                                        enjoy perfectly balanced, nutritious meals every day with MacrosChef.
+                                    </p>
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-medium fs-6">Discover
+                                        MacrosChef
+                                        <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="static/images/front_img/Feature MacrosChef.webp" alt="" class=" img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-wrap">
+                            <div class="col-lg-6">
+                                <img src="static/images/front_img/Feature MealPlanChef.webp" alt="" class=" img-fluid">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="pt-5 d-flex flex-column gap-2 justify-content-start align-items-start">
+                                    <div class=" mb-2 py-2 px-2 borders-bg">
+                                        <img src="static/images/front_img/calendar.webp" alt="" width="40px">
+                                    </div>
+                                    <h3 class=" text-white">MealPlanChef</h3>
+                                    <p class=" text-secondary">MealPlanChef is the ultimate meal planning solution for
+                                        anyone looking to achieve their fitness goals while enjoying delicious,
+                                        nutritious meals.
+                                    </p>
+                                    <p class=" text-secondary">With its customization features, you can build a meal
+                                        plan that fits your specific fitness goals and dietary requirements, whether
+                                        it's for a day, a week, or even a month.
+                                    </p>
+                                    <p class=" text-secondary">Say goodbye to the hassle of meal planning and enjoy
+                                        perfectly balanced meals
+                                        that support your health and wellness goals. Get started with MealPlanChef
+                                        today!</p>
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-medium fs-6">Discover
+                                        MealPlanChef
+                                        <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-wrap">
+                            <div class="col-lg-6">
+                                <div class="pt-5 d-flex flex-column gap-2 justify-content-start align-items-start">
+                                    <div class=" mb-2 py-2 px-2 borders-bg">
+                                        <img src="static/images/front_img/wine_glass.webp" alt="" width="40px">
+                                    </div>
+                                    <h3 class=" text-white">PairPerfect</h3>
+                                    <p class=" text-secondary">PairPerfect is the ultimate tool for food and drink
+                                        enthusiasts looking to elevate their dining experience.
+                                    </p>
+                                    <p class=" text-secondary">Whether you're a seasoned sommelier or just starting to
+                                        explore the world of wine and beer, PairPerfect has you covered. With its expert
+                                        pairing suggestions, you can take your meals to the next level and impress your
+                                        guests.
+                                    </p>
+                                    <p class=" text-secondary">
+                                        Say goodbye to guesswork and hello to perfectly paired drinks with PairPerfect.
+                                    </p>
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-medium fs-6">Download
+                                        PairPerfect
+                                        <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="static/images/front_img/Feature PairPerfect.webp" alt="" class=" img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5">
+                        <div class=" d-flex justify-content-center align-items-center flex-wrap">
+                            <div class="col-lg-6">
+                                <img src="static/images/front_img/Feature MixologyMaestro.webp" alt=""
+                                    class=" img-fluid">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="pt-5 d-flex flex-column gap-2 justify-content-start align-items-start">
+                                    <div class=" mb-2 py-2 px-2 borders-bg">
+                                        <img src="static/images/front_img/cocktail.webp" alt="" width="40px">
+                                    </div>
+                                    <h3 class=" text-white">MixologyMaestro</h3>
+                                    <p class=" text-secondary">Harness the power of innovation and sophistication with
+                                        Mixology Maestro, your personal AI-powered bartender.
+                                    </p>
+                                    <p class=" text-secondary">This groundbreaking mixology companion is designed to
+                                        transform your cocktail experience to unprecedented heights.
+                                    </p>
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-medium fs-6">Discover
+                                        MixologyMaestro
+                                        <i class="fa-solid fa-arrow-right ms-1"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto" style="width: 100%; height:2px; background:#222222"></div>
+
+        <!-- page3 -->
+        <div class="page3">
+            <div class="pt-5 px-5">
+                <div class=" mx-auto text-center d-flex flex-column gap-2 justify-content-center align-items-center">
+                    <img src="static/images/front_img/users.webp" alt="" width="40px">
+                    <span class="green-color fw-bold">TESTIMONIALS</span>
+                    <h2 class="fw-bold text-white">What people say about ChefGPT</h2>
+                    <h5 class=" text-secondary fw-lighter">Hear directly from our customers.</h5>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row pt-5 pb-4">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
+                                <div class="card light-green p-5" style="width:24rem; height:18rem">
+                                    <h4 class=" text-white">No more <span
+                                            class=" green-bg-light rounded-1 p-2 lh-lg text-white">wasting
+                                            time</span><br> in
+                                        the kitchen.</h4>
+                                    <div class=" mt-5 d-flex justify-content-start res">
+                                        <div class="w-25">
+                                            <img src="static/images/front_img/Zaky.jpeg" alt="" class="rounded-circle"
+                                                width="60px">
+                                        </div>
+                                        <div>
+                                            <h6 class=" text-white">Zaky M.</h6>
+                                            <p class=" text-secondary">Head of Growth at <br> Matrixport</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card light-green p-5" style="width:24rem; height:18rem">
+                                    <h4 class=" text-white">My wife and sister in law <br> <span
+                                            class=" green-bg-light rounded-1 p-2 lh-lg text-white">loveeeee
+                                            ChefGPT!</span></h4>
+                                    <div class=" mt-5 d-flex justify-content-start res">
+                                        <div class="w-25">
+                                            <img src="static/images/front_img/Gideon.jpeg" alt="" class="rounded-circle"
+                                                width="60px">
+                                        </div>
+                                        <div>
+                                            <h6 class=" text-white">Gideon S.W.</h6>
+                                            <p class=" text-secondary">Marketer at Snap</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card light-green p-5" style="width:24rem; height:18rem">
+                                    <h4 class=" text-white">Now this is <br> <span
+                                            class=" green-bg-light rounded-1 p-2 lh-lg text-white">a good use of
+                                            Ai</span>!</h4>
+                                    <div class=" mt-5 d-flex justify-content-start res">
+                                        <div class="w-25">
+                                            <img src="static/images/front_img/Joe.jpeg" alt="" class="rounded-circle"
+                                                width="60px">
+                                        </div>
+                                        <div class="res">
+                                            <h6 class=" text-white">Joe D.</h6>
+                                            <p class=" text-secondary">Startup Founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto" style="width: 100%; height:2px; background:#222222"></div>
+
+        <!-- page4 -->
+        <div class="page4">
+            <div class="pt-5 px-5">
+                <div class=" mx-auto text-center d-flex flex-column gap-2 justify-content-center align-items-center">
+                    <img src="static/images/front_img/credit_card.webp" alt="" width="40px">
+                    <span class="green-color fw-bold">PRICING</span>
+                    <h2 class="fw-bold text-white">Features Packed, Small Price</h2>
+                    <h5 class=" text-secondary fw-lighter">Savor delicious cuisine with ChefGPT and be a part of the
+                        community of over 40,000 satisfied <br> food lovers!</h5>
+                </div>
+
+                <div class="container">
+                    <div class="row pb-5 pt-5">
+                        <div class="packages mx-auto text-center pt-5 d-flex justify-content-center align-items-center">
+                            <div class="monthly active text-white py-2 px-3">Monthly</div>
+                            <div class="yearly text-white py-2 px-3">Yearly</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="main-cards d-flex justify-content-center flex-wrap gap-3 pt-5">
+                                <div class="card card-1 p-4 d-flex flex-column gap-3 text-white">
+                                    <div class=" basic">
+                                        <h4>Basic <span>FREE FOREVER</span></h4>
+                                        <p>No Credit Card Required</p>
+                                    </div>
+                                    <div class="sub">
+                                        <h1 class="m-h1">$0<sub>/monthly</sub></h1>
+                                    </div>
+                                    <div class="sv">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            5 Monthly Generated Recipes
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            PantryChef Mode
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            Save 5 Recipes in the Cookbook
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            Save 5 Recipes in the Shopping List
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <a href="/" class="btn w-100 text-white">Get Started</a>
+                                </div>
+
+                                <div class="card card-2 p-4 d-flex flex-column gap-3 green-bg text-white">
+                                    <div class=" basic">
+                                        <h4>Pro <span>7 DAYS TRIAl</span></h4>
+                                        <p>For those who need a Digital Personal Chef</p>
+                                    </div>
+                                    <div class="sub">
+                                        <h1 class="m-h2">$2.99<sub>/monthly</sub></h1>
+                                    </div>
+                                    <div class="sv">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            Unlimited Generated Recipes
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            PantryChef Mode
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            MasterChef Mode
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            MealPlanChef Mode
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            PairPerfect Mode
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            Unlimited Cookbook
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            Unlimited Shopping List
+                                            <span></span>
+                                        </div>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                                data-slot="icon" class="h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z">
+                                                </path>
+                                            </svg>
+                                            No Ads
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <a href="/" class="btn w-100 text-secondary btn-2">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto" style="width: 100%; height:2px; background:#222222"></div>
+
+        <!-- page5 -->
+        <div class="page5 py-5">
+            <div class="pt-5 px-5">
+                <div class=" mx-auto text-center d-flex flex-column gap-2 justify-content-center align-items-center">
+                    <img src="static/images/front_img/newspaper.webp" alt="" width="20px">
+                    <span class="green-color fw-bold">AS FEATURED IN</span>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feature-main d-flex justify-content-start flex-wrap gap-5 py-5 align-items-center">
+                            <div class="feature-plan d-flex justify-content-center align-items-center">
+                                <img src="static/images/front_img/featured.svg" alt="">
+                            </div>
+                            <div class="feature-plan d-flex justify-content-center align-items-center">
+                                <img src="static/images/front_img/image-widget.svg" alt="" width="170px">
+                            </div>
+                            <div class="feature-plan d-flex justify-content-center align-items-center">
+                                <img src="static/images/front_img/vercel.svg" alt="" width="110px">
+                            </div>
+                            <div class="feature-plan d-flex justify-content-center align-items-center">
+                                <img src="static/images/front_img/ais.svg" alt="" width="110px">
+                            </div>
+                            <div class="feature-plan d-flex justify-content-center align-items-center">
+                                <img src="static/images/front_img/aim.svg" alt="" width="110px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto" style="width: 100%; height:2px; background:#222222"></div>
+
+        <!-- page6 -->
+        <div class="page6 my-5">
+            <div class="container-fluid">
+                <div class="main-kitchen mt-5">
+                    <div class="row">
+                        <div class="col-lg-8 p-5">
+                            <div class=" d-flex flex-column gap-4 justify-content-start">
+                                <h2 class=" text-white fw-bold">The perfect companian for your Kitchen.
+                                    <br>
+                                    <span class="green-color fw-bold">Sign up for free, today.</span>
+                                </h2>
+                                <div class=" d-flex gap-4">
+                                    <img src="static/images/front_img/en-us.svg" alt="" width="170px">
+                                    <img src="static/images/front_img/en_badge_web_generic.png " alt="" width="30%">
+                                </div>
+                                <div class=" d-flex flex-column justify-content-start align-items-start pt-3">
+                                    <a href="/" class="green-bg btn text-white py-2 px-3 fw-semibold fs-5">Get Started
+                                        for
+                                        free
+                                    </a>
+                                    <p class="pt-2 text-white ">No credit-card required</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <img src="static/images/front_img/CTA.webp" alt="" class=" img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" mx-auto" style="width: 100%; height:2px; background:#222222"></div>
+
+    </div>
+
+    <footer class="px-5">
+        <div class="container-fluid">
+            <div class="row py-5">
+                <div class="col-lg-7">
+                    <div class="footer-p">
+                        <a href="index.html" class="logo text-decoration-none d-flex align-items-center gap-2">
+                            <img src="static/images/logo_img/logo.png" alt="" width="40px">
+                            <h6 class="fw-bold fs-4 pt-3 green-color">Chef<span>GPT</span></h6>
+                        </a>
+                        <p>Your AI-Powered Digital Chef</p>
+                        <p class=" pt-3">© Copyright 2024 ChefGPT. All Rights <br> Reserved.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class=" d-flex justify-content-start align-items-start flex-wrap gap-5">
+                        <div class="list-sec">
+                            <h4 class="pb-3 text-white">About Us</h4>
+                            <ul class=" list-unstyled d-flex flex-column gap-3 align-items-start">
+                                <li><a href="/">Blog</a></li>
+                                <li><a href="/">Guides</a></li>
+                                <li><a href="/">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-sec">
+                            <h4 class="pb-3 text-white">Product</h4>
+                            <ul class=" list-unstyled d-flex flex-column gap-3 align-items-start">
+                                <li><a href="/">Pricing</a></li>
+                                <li><a href="/">FAQ</a></li>
+                                <li><a href="/">ChefGPT API</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-sec">
+                            <h4 class="pb-3 text-white">Follow Us</h4>
+                            <ul class=" list-unstyled d-flex flex-column gap-3 align-items-start">
+                                <li><a href="/">Instagram</a></li>
+                                <li><a href="/">Twitter</a></li>
+                                <li><a href="/">Becomes a creator</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-sec">
+                            <h4 class="pb-3 text-white">Legal</h4>
+                            <ul class=" list-unstyled d-flex flex-column gap-3 align-items-start">
+                                <li><a href="/">Terms</a></li>
+                                <li><a href="/">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
