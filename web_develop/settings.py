@@ -29,16 +29,6 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# REST FREAMWORK
-
-REST_FRAMEWORK = {
-    # Use Django's standard `django.contrib.auth` permissions,
-    # or allow read-only access for unauthenticated users.
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-    ]
-}
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -115,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+SITE_ID = 1
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 

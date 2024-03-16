@@ -19,6 +19,14 @@
 <body>
 
     <div class="main-sign main-sign-2 d-flex justify-content-center">
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert" style="position: absolute;">
+            {{message}}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %}
+        {% endif%}
         <div class="sing_in sign_up">
             <div class="row">
                 <div class=" d-flex flex-column justify-content-center align-items-center pt-1 gap-2">

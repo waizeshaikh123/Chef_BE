@@ -1,4 +1,4 @@
-from django.shortcuts import render,HttpResponse
+from django.shortcuts import render,HttpResponse,HttpResponseRedirect
 from datetime import datetime
 from chef.models import Sign_In
 from chef.models import Sign_Up
@@ -27,8 +27,10 @@ def sign_in(request):
         sign = Sign_In(email=email,password=password)
         sign.save()
         print("save SignIn success")
-        messages.success(request, "Your Message  has been sent!")
+        messages.success(request, "Your Message  has been sent! Check the admin panel write\n'/admin' ")
+        
     return render(request, 'sign_in.html')
+
 
 def sign_up(request):
     if request.method == "POST":
@@ -38,4 +40,5 @@ def sign_up(request):
         SignUp = Sign_Up(email=email,password=password,re_password=re_password)
         SignUp.save()
         print("save SignUp success")
+        messages.success(request, "Your Message  has been sent! Check the admin panel write '/admin' ")
     return render(request, 'sign_up.html')

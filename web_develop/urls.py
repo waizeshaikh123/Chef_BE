@@ -24,5 +24,4 @@ admin.site.index_title = "welcome to Chef panel"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('chef.urls')),
-    path('api-auth/', include('rest_framework.urls'))
 ]
