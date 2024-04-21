@@ -60,7 +60,10 @@ header{
                 color: var(--bs-gray);
             }
         }
-        .nav-tools li a{
+        .nav-tools .active{
+            background-color: red;
+        }
+        .nav-tools a{
             font-weight: 600;
             font-size: 0.9em;
             color: var(--bs-gray);

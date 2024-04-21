@@ -156,7 +156,10 @@ header nav .drop button {
 header nav .drop button ul li a {
   color: var(--bs-gray);
 }
-header nav .nav-tools li a {
+header nav .nav-tools .active {
+  background-color: red;
+}
+header nav .nav-tools a {
   font-weight: 600;
   font-size: 0.9em;
   color: var(--bs-gray);
